@@ -1,0 +1,191 @@
+/* WRITE HERE YOUR CUSTOM CSS IN ORDER TO MAKE ITEM UPDATES EASY */
+
+.bg_iso {
+    background: url('../img/servicii de ignifugare.jpg') no-repeat center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bg_iso ul {
+    list-style: none;
+}
+
+.bg_iso ul li {
+    position: relative;
+}
+
+.bg_iso ul li:before {
+    content: '';
+    background: url('../img/iconita terra general contractor.png') no-repeat center center;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: -40px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 20px;
+    background-size: 16px;
+}
+
+.bg_iso ul li h3 {
+    color: white;
+}
+
+h3.highlighted {
+    background-color: #fff;
+    color: #ed1c24;
+    padding: 10px 16px;
+}
+
+.promo_full.tesimonials {
+    background: none;
+}
+
+.promo_full.tesimonials h3 {
+    color: initial;
+    text-transform: none;
+    font-weight: inherit;
+}
+
+.promo_full.tesimonials .pic h4 {
+    left: 25px;
+}
+
+.contact-us {
+    background-color: #222222;
+    padding: 80px 160px;
+}
+
+.contact-us__inner {
+    display: flex;
+}
+
+.contact-us__inner .text {
+    width: 30%;
+    padding-right: 40px;
+}
+
+.contact-us__inner .text {
+    color: #fff;
+}
+
+.contact-us__inner .text h3 {
+    margin: 0 0 25px;
+    color: #fff;
+}
+
+footer,
+#copy {
+    background: #ed1c24;
+}
+
+#sub_content_in h1 {
+    margin-bottom: 40px;
+}
+
+#sub_content_in p {
+    font-size: 18px;
+}
+
+.red-dots li {
+    position: relative;
+
+}
+
+.red-dots li::before {
+    content: "";
+    color: #ed1c24;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ed1c24;
+    left: -20px;
+    top: 5px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex--middle {
+    display: flex;
+    justify-content: center;
+}
+
+.flex--center {
+    align-items: center;
+}
+
+.flex--column {
+    flex-direction: column;
+}
+
+.box_style_2 a {
+    overflow-wrap: break-word;
+}
+
+
+#address_footer:before, #phone_footer:before, #email_footer:before, #address_footer, #phone_footer, #email_footer {
+    color: #fff;
+}
+
+footer a, footer p {
+    color: #fff;
+}
+
+footer,
+#copy {
+    color: #fff;
+}
+
+.grid {
+    grid-column: full-start / full-end;
+    display: grid;
+    grid-template: repeat(8, 1fr)/repeat(12, 1fr);
+    grid-gap: 2px;
+}
+
+
+.grid .img--1 {
+   
+    grid-row: 1 / span 5;
+    grid-column: 4 / span 9;
+    height: 100%;
+}
+
+.grid .img--2 {
+   
+    grid-row: 1 / span 5;
+   height: 100%;
+    grid-column: 1 / span 3;
+}
+
+
+.grid .img--3 {
+   
+    grid-row: 6 / span 5;
+    grid-column: 1 / span 6;
+}
+
+.grid .img--4 {
+   
+    grid-row: 6 / span 5;
+    grid-column: 7 / span 6;
+}
+
+.whatsapp-module {
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    z-index: 99999;
+
+    
+}
+
+.whatsapp-module img {
+    width: 60px;
+}
